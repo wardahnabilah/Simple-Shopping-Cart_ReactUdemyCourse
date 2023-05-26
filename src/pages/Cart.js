@@ -1,7 +1,11 @@
 import { CardCart } from "../components";
 import { products } from "../data";
+import { useDocTitle } from "../hooks/useDocTitle.";
 
 export function Cart() {
+    
+    useDocTitle("Cart")
+
     return (
         <main className="font-[poppins] max-w-[1200px] mx-auto my-11">
             <section>
