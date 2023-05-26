@@ -3,9 +3,9 @@ import { products } from "../data";
 
 export function Cart() {
     return (
-        <main className="max-w-[1200px] mx-auto my-11">
+        <main className="font-[poppins] max-w-[1200px] mx-auto my-11">
             <section>
-                <h1 className="mb-8 text-2xl font-bold text-center">Cart Items: 2</h1>
+                <h1 className="mb-8 text-2xl font-black text-center">Cart Items: 2</h1>
                 <CardCart 
                     id={products[0].id}
                     name={products[0].name}

@@ -1,7 +1,19 @@
 module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
-      extend: {},
+      screens: {
+        'tablet': {'max': '680px'}
+      },
+
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif']
+      },
+
+      extend: {
+        maxWidth: {
+          'container': '1224px'
+        }
+      },
     },
     plugins: [],
   }

@@ -3,8 +3,8 @@ import { products } from '../data';
 
 export function Home() {
     return (
-        <main className="max-w-[1200px] mx-auto">
-            <section className="my-11 flex flex-wrap justify-between">
+        <main className="font-[poppins] max-w-container mx-auto my-11">
+            <section className="flex flex-wrap justify-between">
                 {
                     products.map(product => {
                         return <Card 
