@@ -12,10 +12,8 @@ export function Home() {
                 {
                     products.map(product => {
                         return <Card 
-                                    id={product.id}
-                                    name={product.name}
-                                    price={product.price}
-                                    image={product.image}
+                                    key={product.id}
+                                    product={product}
                                 />
                     })
                 }

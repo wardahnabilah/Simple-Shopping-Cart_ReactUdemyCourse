@@ -11,6 +11,7 @@ export function Cart() {
             <section>
                 <h1 className="mb-8 text-2xl font-black text-center">Cart Items: 2</h1>
                 <CardCart 
+                    key={products[0].id}
                     id={products[0].id}
                     name={products[0].name}
                     price={products[0].price}
@@ -18,6 +19,7 @@ export function Cart() {
                 />
 
                 <CardCart 
+                    key={products[1].id}
                     id={products[1].id}
                     name={products[1].name}
                     price={products[1].price}
